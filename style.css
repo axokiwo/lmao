@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .main{
+    background: #5468;
+    width: 1440px;
+    height: 3818px;
+    margin: 0 auto;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  .header {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-start;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin: 0 20px;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .signup, .login {
+    margin-left: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .signup {
+    color: black;
+  }
+  
+  .login {
+    color: black;
+  }
